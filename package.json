@@ -21,6 +21,7 @@
 		"@sveltejs/kit": "^2.9.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@types/better-sqlite3": "^7.6.11",
+		"@types/multer": "^1.4.12",
 		"autoprefixer": "^10.4.20",
 		"drizzle-kit": "^0.22.0",
 		"eslint": "^9.7.0",
@@ -38,7 +39,13 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-node": "^5.2.9",
+		"axios": "^1.7.9",
 		"better-sqlite3": "^11.1.2",
-		"drizzle-orm": "^0.33.0"
+		"dotenv": "^16.4.7",
+		"drizzle-orm": "^0.33.0",
+		"mongoose": "^8.8.4",
+		"multer": "^1.4.5-lts.1",
+		"svelte-routing": "^2.13.0"
 	}
 }
